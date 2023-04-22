@@ -1,0 +1,19 @@
+doctype html
+html
+  head
+    title= title
+    link(rel='stylesheet', href='/stylesheets/style.css')
+  body
+    ul
+      li my text
+      li.
+        this is a line 
+        and it is same line
+    input(type='text').class-name#anyid
+    - var condition = true
+    if condition
+      p it's true  
+    - var anArray = ['one', 'two', 'three']
+    each value in anArray
+      p= value  
+    block content
